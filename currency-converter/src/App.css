@@ -1,0 +1,15 @@
+.swap-up {
+  animation: moveUp 0.5s forwards;
+}
+
+.swap-down {
+  animation: moveDown 0.5s forwards;
+}
+
+@keyframes moveUp {
+  to { transform: translateY(-100%); }
+}
+
+@keyframes moveDown {
+  to { transform: translateY(100%); }
+}
